@@ -1,9 +1,17 @@
 Steps I used to create this app
 
 1) I made a rails new alpha_blog
+
 2) I served the site by using c9's rails -s -p $PORT -b $IP
+
 3) I went to config folder and added a home route and home action to a pages controller in the routes.rb
+
 4) I did the same for the about action and route
+
 5) I made a pages_controller.rb file under app/controllers to add the action methods I added in the routes.rb
+
 6) I made a pages folder under the views folder which coincides with the pages_controller -- a rails convention
+
 7) Within that folder I made 2 html.erb template files called home.html.erb and about.html.erb to show the html view template
+
+8) Made a repository for the app on github
