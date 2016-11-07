@@ -7,8 +7,16 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<%= render 'layouts/messages' %>
+  <!-- Keep as clean as possible
+  whatever is on this page will be on all pages
+  so it is best to put, nav | footer | etc etc--> 
+<%= render 'layouts/navigation' %> <!-- navigation partial -->
+<%= render 'layouts/messages' %> <!-- flash messages partial -->
+<div class="container">
 <%= yield %>
+</div>
+
+<%= render 'layouts/footer' %> <!-- my footer partial -->
 
 </body>
 </html>
