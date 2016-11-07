@@ -3,6 +3,9 @@ $navbar-default-bg: black;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+.navbar-nav {
+  text-align: center;  
+}
 
 #logo {
   float: left;
@@ -58,6 +61,10 @@ $navbar-default-bg: black;
   }
   a:hover {
     text-decoration: none;
+  }
+  small {
+    float: right;
+    font-size: .8em;
   }
 }
 
