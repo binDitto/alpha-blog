@@ -16,7 +16,7 @@ class ArticlesController <ApplicationController
   
   def create
     #render plain: params[:article].inspect
-   # debugger
+   #debugger
     @article = Article.new(article_params)
     @article.user = current_user
     if @article.save
@@ -24,10 +24,7 @@ class ArticlesController <ApplicationController
       redirect_to article_path(@article)
     else
       render 'new'
-    
     end
-    #@article.save
-    #redirect_to articles_path(@article)
   end
   
   def update
