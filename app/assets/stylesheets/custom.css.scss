@@ -3,8 +3,11 @@ $navbar-default-bg: black;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
-.navbar-nav {
-  text-align: center;  
+.navbar {
+  border-radius: 0;
+  .navbar-nav {
+    text-align: center;  
+  }
 }
 
 #logo {
