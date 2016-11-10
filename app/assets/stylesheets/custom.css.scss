@@ -28,6 +28,8 @@ $navbar-default-bg: black;
 .jumbotron {
   background-image: asset-url('DSC00834.jpg');
   background-size: cover;
+  background-color: orange;
+  background-blend-mode: color;
   height: 600px;
   h1 {
     color: #fff;
